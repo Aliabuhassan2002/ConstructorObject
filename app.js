@@ -29,15 +29,29 @@ Persons={
 
 }
 firstName(Persons);
-//////////////////////////////////////////
+//////////////////////////////////////////Q2
+
+
 
 function ObjectToArray(obj){
-
+    let arr1=Object.keys(obj);
+    let arr2=Object.values(obj);
+    for(let i=0;i<arr1.length;i++){
+       
+            console.log(arr1[i]);
+            console.log(arr2[i]);
+       
+            
+        
+        
+    }
 
 
 }
+let obj={name:"ali", age:33 , field:"se", gender: "male"};
+ObjectToArray(obj);
 
-/////////////////////////////////////////
+/////////////////////////////////////////Q1
 
 function Car(brand, model, year){
     this.brand=brand;
